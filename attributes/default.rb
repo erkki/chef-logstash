@@ -20,9 +20,9 @@ default['logstash']['instance_default']['create_account'] = true
 default['logstash']['instance_default']['join_groups'] = []
 default['logstash']['instance_default']['homedir'] = '/var/lib/logstash'
 
-default['logstash']['instance_default']['version']        = '1.5.4'
-default['logstash']['instance_default']['source_url']     = 'https://download.elasticsearch.org/logstash/logstash/logstash-1.5.4.tar.gz'
-default['logstash']['instance_default']['checksum']       = 'f03075ee534ce6e7667679447f56543ce05cebbdb7b65a9396a5e538bf3e9fa8'
+default['logstash']['instance_default']['version']        = '5.2.2'
+default['logstash']['instance_default']['source_url']     = 'https://artifacts.elastic.co/downloads/logstash/logstash-5.2.2.tar.gz'
+default['logstash']['instance_default']['checksum']       = 'e5b6c70ccae7eec6410468ad7cec4e418378b3d31175441ccb2d7bc586637d6f'
 default['logstash']['instance_default']['install_type']   = 'tarball'
 
 default['logstash']['instance_default']['plugins_version']        = '1.4.5'
